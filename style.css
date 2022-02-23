@@ -1,0 +1,171 @@
+.container-fluid {
+  height: 100vh;
+  background: linear-gradient(
+    red 0%,
+    red 60%,
+    green 65%,
+    #f08c00 66%,
+    #f08c00 100%
+  );
+  padding: 5px;
+}
+
+.not_selectable {
+  user-select: none;
+}
+.cards_section {
+  height: 98vh;
+}
+
+.card_one {
+  height: 100px;
+  width: 150px;
+  border-radius: 12%;
+  background-color: gold;
+}
+
+.card_two {
+  height: 200px;
+  width: 150px;
+  border-radius: 12%;
+  background-color: gold;
+}
+
+.cards_text {
+  color: red;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.time_display {
+  background-color: bisque;
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.pillar_one {
+  height: 400px;
+  width: 30px;
+  background-color: #f59f00;
+  box-shadow: 3px 3px 3px #fab005;
+  position: relative;
+}
+.pillar_two {
+  height: 400px;
+  width: 30px;
+  background-color: #f59f00;
+  box-shadow: 3px 3px 3px #fab005;
+  position: relative;
+}
+.pillar_three {
+  height: 400px;
+  width: 30px;
+  background-color: #f59f00;
+  box-shadow: 3px 3px 3px #fab005;
+  position: relative;
+}
+
+.pillar_base {
+  width: 150px;
+  height: 40px;
+  background-color: #f59f00;
+  position: absolute;
+  top: 100%;
+  left: -190%;
+}
+
+.card {
+  height: 40px;
+  background-color: #f59f00;
+  position: absolute;
+  top: 100%;
+  left: -190%;
+}
+
+.pillar_middle_color {
+  background-color: #fcc419 !important;
+}
+
+svg {
+  stroke: white;
+}
+
+#help_icon,
+#settings_icon {
+  cursor: pointer;
+}
+
+.rings_position_getter {
+  position: relative;
+}
+
+.ring_one {
+  width: 70px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #fd7e14;
+}
+.ring_two {
+  width: 75px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #ffd8a8;
+}
+.ring_three {
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #ffa94d;
+}
+.ring_four {
+  width: 88px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #c0eb75;
+}
+.ring_five {
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #8ce99a;
+}
+.ring_six {
+  width: 105px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #a5d8ff;
+}
+.ring_seven {
+  width: 115px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #e599f7;
+}
+.ring_eight {
+  width: 120px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #9c36b5;
+}
+.ring_nine {
+  width: 127px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: #5f3dc4;
+}
+
+#buttons_area {
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-around;
+}
